@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         
         test()
         
-        var st = "Hello"
+        _ = "Hello"
     }
 
     override func didReceiveMemoryWarning() {
