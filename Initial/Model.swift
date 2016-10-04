@@ -16,4 +16,10 @@ class Model: NSObject {
         
         name = "Salah"
     }
+    
+    func logInfo(){
+        
+        let unusualMenagerie = "Koala 🐨, Snail 🐌, Penguin 🐧, Dromedary 🐪"
+        print("unusualMenagerie has \(unusualMenagerie.characters.count) characters")
+    }
 }
