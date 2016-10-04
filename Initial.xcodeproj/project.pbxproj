@@ -15,7 +15,6 @@
 		5F5EAD2B1DA2405500C671D0 /* InitialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5EAD2A1DA2405500C671D0 /* InitialTests.swift */; };
 		5F5EAD361DA2405500C671D0 /* InitialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5EAD351DA2405500C671D0 /* InitialUITests.swift */; };
 		5FC764B21DA38841003F30FB /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC764B11DA38841003F30FB /* Model.swift */; };
-		5FC764B41DA39AAC003F30FB /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC764B31DA39AAC003F30FB /* View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +49,6 @@
 		5F5EAD351DA2405500C671D0 /* InitialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialUITests.swift; sourceTree = "<group>"; };
 		5F5EAD371DA2405500C671D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5FC764B11DA38841003F30FB /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
-		5FC764B31DA39AAC003F30FB /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +102,6 @@
 				5F5EAD151DA2405500C671D0 /* AppDelegate.swift */,
 				5F5EAD171DA2405500C671D0 /* ViewController.swift */,
 				5FC764B11DA38841003F30FB /* Model.swift */,
-				5FC764B31DA39AAC003F30FB /* View.swift */,
 				5F5EAD191DA2405500C671D0 /* Main.storyboard */,
 				5F5EAD1C1DA2405500C671D0 /* Assets.xcassets */,
 				5F5EAD1E1DA2405500C671D0 /* LaunchScreen.storyboard */,
@@ -265,7 +262,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FC764B41DA39AAC003F30FB /* View.swift in Sources */,
 				5FC764B21DA38841003F30FB /* Model.swift in Sources */,
 				5F5EAD181DA2405500C671D0 /* ViewController.swift in Sources */,
 				5F5EAD161DA2405500C671D0 /* AppDelegate.swift in Sources */,
