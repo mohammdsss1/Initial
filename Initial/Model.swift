@@ -10,6 +10,10 @@ import UIKit
 
 class Model: NSObject {
 
-    let name : String?
+    let name : String? = nil
     
+    required init() {
+        
+        name = "Salah"
+    }
 }
