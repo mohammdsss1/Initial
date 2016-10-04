@@ -18,7 +18,7 @@ class Model: NSObject {
         // Add comment
         name = "Salah"
         
-        // Hello    
+        // Hello
     }
     
     func logInfo(){
