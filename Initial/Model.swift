@@ -11,14 +11,14 @@ import UIKit
 class Model: NSObject {
 
     var name : String? = nil
-    var id : String? = nil
+    var id : Int? = nil
     
     required override init() {
         
         
         // Add comment
         name = "Salah"
-        
+        id = 1
         // Hello
     }
     
