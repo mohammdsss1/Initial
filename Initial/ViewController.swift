@@ -17,6 +17,8 @@ class ViewController: UIViewController {
         
         let message = "Hello"
         print(message + "Mohammad")
+        
+//         let model = Model()
     }
 
     override func didReceiveMemoryWarning() {
