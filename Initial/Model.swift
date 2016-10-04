@@ -11,6 +11,7 @@ import UIKit
 class Model: NSObject {
 
     var name : String? = nil
+    var id : String? = nil
     
     required override init() {
         
