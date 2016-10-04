@@ -10,6 +10,16 @@ import UIKit
 
 class Model: NSObject {
 
-    let name : String?
+    var name : String? = nil
     
+    required override init() {
+        
+        name = "Salah"
+    }
+    
+    func logInfo(){
+        
+        let unusualMenagerie = "Koala 🐨, Snail 🐌, Penguin 🐧, Dromedary 🐪"
+        print("unusualMenagerie has \(unusualMenagerie.characters.count) characters")
+    }
 }
