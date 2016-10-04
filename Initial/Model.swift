@@ -10,9 +10,9 @@ import UIKit
 
 class Model: NSObject {
 
-    let name : String? = nil
+    var name : String? = nil
     
-    required init() {
+    required override init() {
         
         name = "Salah"
     }
