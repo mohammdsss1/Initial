@@ -14,6 +14,8 @@ class Model: NSObject {
     
     required override init() {
         
+        
+        // Add comment
         name = "Salah"
     }
     
