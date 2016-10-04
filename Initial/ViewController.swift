@@ -18,9 +18,10 @@ class ViewController: UIViewController {
         let message = "Hello"
         print(message + "Mohammad")
         
-//         let model = Model()
+        let model = Model(name: "Hamza", id: 201)
+        print(model.name)
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

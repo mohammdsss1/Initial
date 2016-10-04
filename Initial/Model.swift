@@ -22,6 +22,15 @@ class Model: NSObject {
         // Hello
     }
     
+    convenience init(name: String? = nil, id : Int) {
+        
+        self.init()
+        
+        self.name = name
+        self.id = id
+        
+    }
+    
     func logInfo(){
         
         let unusualMenagerie = "Koala 🐨, Snail 🐌, Penguin 🐧, Dromedary 🐪"
