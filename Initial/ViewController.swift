@@ -29,7 +29,7 @@ class ViewController: UIViewController {
     }
 
     func test(){
-        print("")
+        print("Mohammad")
     }
 }
 
